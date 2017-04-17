@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BDJPieceOfNewsViewController">
+            <connections>
+                <outlet property="bodyWebView" destination="Ojy-lF-lUW" id="UZt-jX-AgO"/>
+                <outlet property="view" destination="gRn-Je-yaw" id="Dps-pv-WBU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gRn-Je-yaw">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ojy-lF-lUW">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ojy-lF-lUW" firstAttribute="leading" secondItem="gRn-Je-yaw" secondAttribute="leading" id="Psf-7z-EBd"/>
+                <constraint firstAttribute="bottom" secondItem="Ojy-lF-lUW" secondAttribute="bottom" id="TYP-Bu-b3a"/>
+                <constraint firstItem="Ojy-lF-lUW" firstAttribute="top" secondItem="gRn-Je-yaw" secondAttribute="top" id="dUy-6J-mBe"/>
+                <constraint firstAttribute="trailing" secondItem="Ojy-lF-lUW" secondAttribute="trailing" id="zfl-X9-i4B"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

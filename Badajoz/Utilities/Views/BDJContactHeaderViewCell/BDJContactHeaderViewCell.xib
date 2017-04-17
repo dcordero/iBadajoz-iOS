@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BDJContactHeaderViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iY3-zw-TVs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="171"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="171" id="FRw-0v-76e"/>
+                    </constraints>
+                </mapView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="304" translatesAutoresizingMaskIntoConstraints="NO" id="L5j-jL-IZu">
+                    <rect key="frame" x="8" y="179" width="304" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                    <color key="textColor" red="0.35684434879999999" green="0.44022032719999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="L5j-jL-IZu" secondAttribute="trailing" constant="8" id="8VL-ac-p5y"/>
+                <constraint firstItem="L5j-jL-IZu" firstAttribute="top" secondItem="iY3-zw-TVs" secondAttribute="bottom" constant="8" id="Eet-qZ-7Wc"/>
+                <constraint firstAttribute="trailing" secondItem="iY3-zw-TVs" secondAttribute="trailing" id="Rw8-Rk-awJ"/>
+                <constraint firstItem="L5j-jL-IZu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Zgt-rM-An3"/>
+                <constraint firstItem="iY3-zw-TVs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="m2V-ey-8M8"/>
+                <constraint firstItem="iY3-zw-TVs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qZc-0i-zbE"/>
+            </constraints>
+            <connections>
+                <outlet property="contactName" destination="L5j-jL-IZu" id="BsG-M4-PAE"/>
+                <outlet property="mapView" destination="iY3-zw-TVs" id="QaP-7g-aNs"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BDJParadaViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BDJParadaViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLu-IH-dbh">
+                    <rect key="frame" x="50" y="15" width="250" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                    <color key="textColor" red="0.35684434879999999" green="0.44022032719999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wVb-j4-nnl">
+                    <rect key="frame" x="23" y="25" width="10" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5yV-rJ-oqi">
+                    <rect key="frame" x="23" y="0.0" width="10" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iV9-dd-O9l">
+                    <rect key="frame" x="18" y="15" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="DqH-0n-rnz"/>
+                        <constraint firstAttribute="height" constant="20" id="ZwJ-Ht-cPx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iV9-dd-O9l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="4dU-cO-nVH"/>
+                <constraint firstItem="iV9-dd-O9l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="Ate-IL-nKx"/>
+                <constraint firstAttribute="trailing" secondItem="dLu-IH-dbh" secondAttribute="trailing" constant="20" id="cj3-y6-1Cg"/>
+                <constraint firstAttribute="centerY" secondItem="dLu-IH-dbh" secondAttribute="centerY" constant="0.5" id="coc-9v-UiE"/>
+                <constraint firstItem="dLu-IH-dbh" firstAttribute="leading" secondItem="iV9-dd-O9l" secondAttribute="trailing" constant="12" id="vUg-Nh-Tx8"/>
+            </constraints>
+            <connections>
+                <outlet property="nextConnection" destination="wVb-j4-nnl" id="ABA-MZ-86v"/>
+                <outlet property="paradaIcon" destination="iV9-dd-O9l" id="FrQ-OG-ikl"/>
+                <outlet property="paradaLabel" destination="dLu-IH-dbh" id="Gog-x9-3YY"/>
+                <outlet property="previousConnection" destination="5yV-rJ-oqi" id="Sme-YN-uN7"/>
+            </connections>
+        </view>
+    </objects>
+</document>

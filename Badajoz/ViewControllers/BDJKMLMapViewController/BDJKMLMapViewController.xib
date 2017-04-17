@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BDJKMLMapViewController">
+            <connections>
+                <outlet property="mapView" destination="Uho-f7-DDp" id="Fo6-6h-0uY"/>
+                <outlet property="toolbar" destination="ybK-df-Wsw" id="jxR-kG-KcQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Uho-f7-DDp">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="n1K-4B-U9z"/>
+                    </connections>
+                </mapView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybK-df-Wsw">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="imq-gL-hOL"/>
+                        <barButtonItem style="plain" id="TtT-Wz-VeR">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="u0u-MP-pQx">
+                                <rect key="frame" x="55" y="7" width="209" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Estandar"/>
+                                    <segment title="Satelite"/>
+                                    <segment title="Híbrido"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mapTypeChanged:" destination="-1" eventType="valueChanged" id="pHS-Kn-Jxp"/>
+                                </connections>
+                            </segmentedControl>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Qsc-TZ-53k"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Uho-f7-DDp" secondAttribute="trailing" id="1ae-Bu-2TH"/>
+                <constraint firstItem="ybK-df-Wsw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Lam-KL-iXz"/>
+                <constraint firstItem="ybK-df-Wsw" firstAttribute="top" secondItem="Uho-f7-DDp" secondAttribute="bottom" id="NPZ-tm-am6"/>
+                <constraint firstAttribute="trailing" secondItem="ybK-df-Wsw" secondAttribute="trailing" id="YYZ-bU-qbu"/>
+                <constraint firstItem="Uho-f7-DDp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZRt-Oy-UZR"/>
+                <constraint firstItem="Uho-f7-DDp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="brj-0I-YJj"/>
+                <constraint firstAttribute="bottom" secondItem="ybK-df-Wsw" secondAttribute="bottom" id="r4G-Yp-drp"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,145 @@
+/* Address label in contact viewer */
+"Address" = "Dirección";
+
+/* Question in popup to open link in safari */
+"Are you sure you want to open this link in Safari?" = "¿Está seguro que desea abrir este enlace en Safari?";
+
+/* Subject for contact support email */
+"Badajoz for iOS" = "Badajoz para iOS";
+
+/* Facebook in More Information */
+"Badajoz on Facebook" = "Badajoz en Facebook";
+
+/* Twitter in More Information */
+"Badajoz on Twitter" = "Badajoz en Twitter";
+
+/* Title for BiBa */
+"BiBa" = "BiBa";
+
+/* Cancel button in popup to call a contact
+ Cancel button in popup to open link in safari
+ Cancel button in popup to open rss item in safari */
+"Cancel" = "Cancelar";
+
+/* Change here label in stop viewer */
+"Change here for" = "Correspondencia con:";
+
+/* Contact support email in More Information Information
+ Contact support in More Information */
+"Contact support" = "Soporte técnico";
+
+/* Title for Contacts */
+"Contacts" = "Directorio";
+
+/* Title for KML Details */
+"Details" = "Detalles";
+
+/* Question to confirm call the contact */
+"Do you want to call the contact?" = "¿Desea realizar una llamada?";
+
+/* Email label in contact viewer */
+"Email" = "Email";
+
+/* Error message. Error fetching contacts */
+"Error fetching contacts" = "Error obteniendo los contactos";
+
+/* Error message. Error fetching map */
+"Error fetching the map" = "Ups, parece que no fuimos capaces de obtener el mapa, intentelo de nuevo mas tarde";
+
+/* Error message. Error fetching news */
+"Error fetching the news" = "Ups, parece que hubo algún problemilla obteniendo las noticias, intentelo de nuevo mas tarde";
+
+/* Fax label in contact viewer */
+"Fax" = "Fax";
+
+/* Title for flash news in toolbar */
+"Flash" = "Noticias";
+
+/* Title for Handicapted Parking */
+"Handicapted Parking" = "Aparcamientos Adaptados";
+
+/* Title for Handicapted parking */
+"Handicapted parking" = "Aparcamientos adaptados";
+
+/* Title for flash jobs in toolbar
+ Title in popup to open rss item in safari */
+"Jobs" = "Empleo";
+
+/* Label for lines in list of bus lines */
+"Line %@" = "Linea %@";
+
+/* Title in popup to open link in safari */
+"Link" = "Aviso";
+
+/* Title for list segment in kml toolbar */
+"List" = "Lista";
+
+/* Loading information in stop viewer */
+"Loading information..." = "Cargando información...";
+
+/* Message when sharing a piece of news to e.g social media */
+"Look at this piece of news that I just saw on aytobadajoz.es  " = "Mira que noticia me he encontrado en aytobadajoz.es  ";
+
+/* Title for Main in sidebar */
+"Main" = "Principal";
+
+/* Title for map segment in kml toolbar */
+"Map" = "Mapa";
+
+/* Title for More in sidebar */
+"More" = "Mas";
+
+/* Title for More Info */
+"More Info" = "Mas información";
+
+/* Title for More information in sidebar */
+"More information" = "Mas información";
+
+/* Title for News */
+"News" = "Al día";
+
+/* Next stop label in stop viewer */
+"Next stop" = "Próxima parada";
+
+/* Phone label in contact viewer
+ Title in popup to call a contact */
+"Phone" = "Teléfono";
+
+/* Rate us on AppStore in More Information */
+"Rate us on AppStore" = "Valorar en AppStore";
+
+/* Social networks in More Information */
+"Social networks" = "Redes sociales";
+
+/* Error message for error in contact support
+ Error message when contacting contact by email */
+"Something went wrong. Please try again in a few minutes." = "Parece que hubo algún problemilla, por favor intentelo de nuevo mas tarde.";
+
+/* Title for flash specials in toolbar */
+"Specials" = "Especiales";
+
+/* OK button in popup to call a contact
+ OK button in popup to open link in safari
+ OK button in popup to open rss item in safari */
+"Sure" = "Si";
+
+/* Thank you message for your feedback in contact support */
+"Thank you for your feedback" = "Muchas gracias por sus comentarios";
+
+/* Success message when contacting contact by email */
+"The email was sent successfully" = "El email fue enviado";
+
+/* Question in popup to open rss item in safari */
+"This article has no description, do you want to open it using Safari?" = "Este artículo no tiene descripción, ¿desea abrirlo utilizando Safari?";
+
+/* Title for Transport in sidebar */
+"Transport" = "Transporte";
+
+/* Title for Tubasa */
+"Tubasa" = "Tubasa";
+
+/* Web label in contact viewer */
+"Web" = "Web";
+
+/* Label for stops without a given name */
+"No info" = "Parada sin nombre";
