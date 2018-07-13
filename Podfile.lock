@@ -53,6 +53,22 @@ DEPENDENCIES:
   - SVProgressHUD (~> 1.0)
   - TMCache (~> 1.2)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Answers
+    - BDBSpinKitRefreshControl
+    - DTAlertView
+    - Fabric
+    - GDataXML-HTML
+    - Mantle
+    - NSObject-NSCoding
+    - REFrostedViewController
+    - SpinKit
+    - SVProgressHUD
+    - TBXML
+    - TMCache
+
 EXTERNAL SOURCES:
   iOS-KML-Framework:
     :git: https://github.com/FLCLjp/iOS-KML-Framework.git
@@ -80,4 +96,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 1d92d5568197c8d7aacbd509fc1184d36f87808f
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3
